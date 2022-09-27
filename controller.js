@@ -346,7 +346,7 @@ function closeModal(a) {
         c = document.querySelector(".body-blackout");
     b.classList.remove("is--visible"), c.classList.remove("is-blacked-out"), document.getElementsByTagName("html")[0].style.overflow = "auto", document.getElementById("modal-content").innerHTML = ""
 }
-
+/*
 function checkCardExpDate() {
     paywall.queue.push(["invoke", "viewSubscriptionData", function(a) {
         if (a && a.is_active && a.card && a.card.expiration_date) {
@@ -362,7 +362,7 @@ function checkCardExpDate() {
         }
     }])
 }
-
+*/
 function showWidgetList(c) {
     if (document.getElementById("listID") && document.getElementById("lgwid") && 0 == document.getElementById("lgwid").innerText.length) {
         var b = document.getElementById("listID").value;
@@ -381,7 +381,7 @@ function showWidgetList(c) {
         }
     }
 }
-
+/*
 function showFormWidgetSubscribe(d, b, c) {
     showloading();
     var a = new XMLHttpRequest;
@@ -396,7 +396,7 @@ function showFormWidgetSubscribe(d, b, c) {
         hideloading()
     }
 }
-
+*/
 function suscLista(a) {
     showloading(), document.getElementById("msj_errorsus").innerHTML = "";
     var b = document.getElementById(a);
@@ -434,7 +434,7 @@ if (document.addEventListener) {
         "nota" == b && (a = c[d + 1])
     }), a > 0 ? getGeneralDataFromArticle(a, 32) : getGeneralData()
 }
-
+/*
 function agregarBanner(f, a, g) {
     if (a.height) var d = a.height;
     else var d = "250";
@@ -454,7 +454,7 @@ function agregarBanner(f, a, g) {
         googletag.pubads().addEventListener("slotRenderEnded", function(a) {}), googletag.display("adslot" + a.id), googletag.pubads().refresh([b])
     })
 }
-
+*/
 function bikers(b) {
     showloading();
     var c = document.getElementById(b);
