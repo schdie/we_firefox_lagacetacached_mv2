@@ -2,7 +2,7 @@
   "description": "Cached content retrieval for lagaceta.com.ar",
   "manifest_version": 2,
   "name": "LG Cached",
-  "version": "3.20e",
+  "version": "3.20f",
   
   "icons": {
     "48": "icons/48.png",

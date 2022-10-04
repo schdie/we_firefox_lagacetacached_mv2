@@ -115,7 +115,7 @@ document.addEventListener('readystatechange', event => {
 									}
 									// Fix global formatting
 									const srcformat = cachedDiv.getElementsByClassName('col-12');
-									console.log("total de divs a cambiar: " + srcformat.lenght);
+									//console.log("total de divs a cambiar: " + srcformat.lenght);
 									while (srcformat.length) {
 										srcformat[0].className = "col-xl-10";
 									}
