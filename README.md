@@ -5,4 +5,4 @@
 - retrieves cached content from google's server (if available) on pages with intrusive JS/CSS.
 - dark theme mode on the fly.
 
-==DISCONTINUED, please use the manifest v3 version==
+<span style="color:red">!!</span> __DISCONTINUED, please use the manifest v3 version__ <span style="color:red">!!</span>
